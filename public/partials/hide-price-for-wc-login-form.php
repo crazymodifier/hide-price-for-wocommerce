@@ -1,3 +1,6 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly 
+?>
 <div class="hideprice-modal-wrap" id="hideprice-modal">
     <div class="hideprice-modal-content">
         <span class="hideprice-modal-close close-button"><span>&times;</span></span>

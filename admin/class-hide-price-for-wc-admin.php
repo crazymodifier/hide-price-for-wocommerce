@@ -1,5 +1,5 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly 
 /**
  * undocumented class
  */
@@ -67,9 +67,6 @@ if ( !class_exists( 'Hide_Price_For_WC_Admin' ) ) {
         public function hideprice_extending_wc_settings($settings)
         {
             if (!class_exists('Hide_Price_For_WC_Settings')) {
-                if (! class_exists('WC_Settings_Page', false)) {
-                    include_once ABSPATH . 'wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-page.php';
-                }
                 include_once CM_HPFW_PLUGIN_DIR . 'admin/class-hide-price-for-wc-settings.php';
                 $settings[] = new Hide_Price_For_WC_Settings();
             }

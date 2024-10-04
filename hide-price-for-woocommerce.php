@@ -10,7 +10,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Hide Price For WooCommerce
- * Plugin URI:        https://github.com/crazymodifier/hide-price
+ * Plugin URI:        https://github.com/crazymodifier/hide-price-for-woocommerce
  * Description:       Hide Price For WooCommerce is an add-on plugin for WooCommerce, By using this plugin you can set the condition to display Price and Add to cart button.
  * Version:           1.0.1
  * Author:            Crazy Modifier

@@ -1,5 +1,5 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly 
 /**
  * undocumented class
  */
@@ -297,7 +297,7 @@ class Hide_Price_For_WC_Settings extends WC_Settings_Page
 				'id'	=> 'hpfwc-custom-url',
 				'class' => 'conditional-field',
 				'type'	=> 'text',
-				'default' => 'http://localhost:8080/crazymodifier/my-account/'
+				'default' => site_url('my-account')
 			),
 			array(
 				'type' 	=> 'sectionend',

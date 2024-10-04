@@ -32,7 +32,8 @@ Hide Price for WooCommerce is an add-on plugin for WooCommerce, By using this pl
 2. Image 02
 
 == Changelog ==
-
+= 1.0.2 =
+security enhancement
 
 = 1.0.1 =
 

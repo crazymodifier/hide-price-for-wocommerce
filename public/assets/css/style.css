@@ -1,0 +1,16 @@
+
+.hp-button-default{
+    color:#fff;
+    background:red;
+    padding:10px 20px;
+    border-radius:5px;
+    display:inline-block;
+    margin-block:5px;
+    font-weight:500;
+    transition:all .3s ease-in-out
+}
+
+.hp-button-default:hover{
+    background:pink;
+    color:#000
+}

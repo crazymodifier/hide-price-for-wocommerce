@@ -1,0 +1,245 @@
+# Copyright (C) 2024 Crazy Modifier
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hide Price For WooCommerce 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hide-price-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-24T21:35:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: hide-price-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: hide-price-for-woocommerce.php
+msgid "Hide Price For WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: hide-price-for-woocommerce.php
+msgid "https://github.com/crazymodifier/hide-price"
+msgstr ""
+
+#. Description of the plugin
+#: hide-price-for-woocommerce.php
+msgid "Hide Price For WooCommerce is an add-on plugin for WooCommerce, By using this plugin you can set the condition to display Price and Add to cart button."
+msgstr ""
+
+#. Author of the plugin
+#: hide-price-for-woocommerce.php
+msgid "Crazy Modifier"
+msgstr ""
+
+#. Author URI of the plugin
+#: hide-price-for-woocommerce.php
+msgid "https://crazymodifier.com"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:18
+msgid "Hide Price"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:54
+msgid "General"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:55
+msgid "Hide Price By Roles"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:56
+#: admin/class-hide-price-for-wc-settings.php:76
+msgid "Messages"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:78
+msgid "Enable the feature of hide price for woocommerce"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:110
+msgid "Hide Price By Role"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:112
+#: admin/class-hide-price-for-wc-settings.php:157
+#: admin/class-hide-price-for-wc-settings.php:237
+msgid "Enable the feature of hide price "
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:116
+msgid "Enable Hide Price By Role"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:118
+msgid "Enable the feature of hide price by role"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:120
+msgid "Price will be hidden according to the Role of User"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:123
+#: admin/class-hide-price-for-wc-settings.php:130
+msgid "Select User Roles"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:132
+msgid "Select user roles to show the price"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:155
+msgid "Hide Price Until Login"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:161
+msgid "Enable Hide Price Until Login"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:163
+msgid "Enable the feature of hide price until login"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:165
+msgid "Price will be hidden until login"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:168
+msgid "Select Button type"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:169
+#: admin/class-hide-price-for-wc-settings.php:190
+#: admin/class-hide-price-for-wc-settings.php:282
+msgid "This setting for your desired registration/login method."
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:173
+msgid "Login Button"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:174
+#: admin/class-hide-price-for-wc-settings.php:180
+#: admin/class-hide-price-for-wc-settings.php:257
+#: admin/class-hide-price-for-wc-settings.php:265
+msgid "Custom Text"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:175
+#: admin/class-hide-price-for-wc-settings.php:255
+msgid "None"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:181
+msgid "This setting for your desired text"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:186
+#: public/class-hide-price-for-wc-public.php:207
+msgid "Login to see price"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:189
+msgid "Select Method"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:194
+#: admin/class-hide-price-for-wc-settings.php:286
+msgid "Popup Login Form (Plugin's Default)"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:195
+#: admin/class-hide-price-for-wc-settings.php:287
+msgid "Redirect to URL"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:196
+msgid "Default"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:201
+#: admin/class-hide-price-for-wc-settings.php:295
+msgid "Custom Redirect URL"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:202
+#: admin/class-hide-price-for-wc-settings.php:296
+msgid "This setting for your desired redirect url"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:229
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:231
+msgid "Enable the feature of Hide Price for WooCommerce"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:235
+msgid "Enable Hide Price"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:239
+msgid "Enable the feature of hide price"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:250
+msgid "Display Type"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:251
+msgid "Choose your display type to show customers."
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:256
+msgid "Login Button (Plugin's Default)"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:258
+msgid "Info Notice"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:266
+msgid "This setting for your desired text at the place of price"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:281
+msgid "Register/Login Method"
+msgstr ""
+
+#: admin/class-hide-price-for-wc-settings.php:288
+msgid "WordPress Default"
+msgstr ""
+
+#: hide-price-for-woocommerce.php:60
+msgid "WooCommerce is not activated. Please install WooCommerce first, to use the Hide Price For WooCommerce plugin !!!"
+msgstr ""
+
+#: public/class-hide-price-for-wc-public.php:122
+msgid "You don't have enough permission to place this order."
+msgstr ""
+
+#: public/class-hide-price-for-wc-public.php:189
+#: public/class-hide-price-for-wc-public.php:194
+#: public/class-hide-price-for-wc-public.php:197
+msgid "Login"
+msgstr ""
+
+#: public/class-hide-price-for-wc-public.php:245
+msgid "Nonce Failure"
+msgstr ""
+
+#: public/partials/hide-price-for-wc-login-form.php:22
+msgid "Lost your password?"
+msgstr ""
+
+#: public/partials/hide-price-for-wc-login-form.php:23
+msgid "Don't have account"
+msgstr ""
+
+#: public/partials/hide-price-for-wc-login-form.php:23
+msgid "now"
+msgstr ""

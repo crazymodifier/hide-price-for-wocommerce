@@ -1,0 +1,96 @@
+.hideprice-modal-open{
+    position:relative;
+    overflow:hidden;
+}
+body{
+    transition: all .3s ease-in-out;
+}
+.hideprice-modal-open:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#000;
+
+    z-index:9999;
+    opacity:.7;
+}
+
+.hideprice-modal-wrap{
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    z-index:-99999;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    width:450px;
+    max-width: 90%;
+}
+.hideprice-modal-open .hideprice-modal-wrap{
+    opacity: 1;
+    z-index: 99999;
+}
+.hideprice-modal-wrap .hideprice-modal-content{
+    background:#e8e8e8;
+    padding:35px;
+    position:relative;
+}
+
+.hideprice-modal-wrap .hideprice-modal-close{
+    position:absolute;
+    right: -10px;
+    top: -10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:700;
+    font-size: 25px;
+    background:inherit;
+    border:2px solid;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+.hideprice-modal-wrap .hideprice-modal-close span{
+    line-height: 1;
+    margin-top: -2px;
+}
+
+/* Form */
+#hideprice-login-form p{
+    margin-bottom: 10px;
+}
+#hideprice-login-form .login-submit{
+    margin-bottom: 0;
+}
+#hideprice-login-form .hideprice-modal-header {
+    margin-bottom: 25px;
+}
+
+.hideprice-modal-header{
+    margin-bottom: 30px;
+}
+
+p.msg-block.failed {
+    color:#e03323
+}
+p.msg-block.success {
+    color:#49e023
+}
+
+p.msg-block{
+    font-size:14px;
+    margin-bottom:5px;
+    margin-top: -10px;
+}
+
+.hideprice-login-subtext{
+    font-size:14px;
+    display:flex;
+    flex-direction:column;
+    margin-top:20px
+}
